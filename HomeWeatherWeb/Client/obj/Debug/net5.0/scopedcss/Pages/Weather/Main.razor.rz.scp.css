@@ -1,0 +1,36 @@
+.controlBtn[b-cpji98zedp] {
+    width: 100px;
+    height: 50px;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5em;
+    border-radius: 4px;
+    border: 1px solid antiquewhite;
+}
+
+.controlBtn-conn[b-cpji98zedp] {
+    background-color: darkgreen;
+}
+
+.controlBtn-disc[b-cpji98zedp] {
+    background-color: red;
+}
+
+.controlBtn-send[b-cpji98zedp] {
+    background-color: dodgerblue;
+    margin-left: 2em;
+}
+
+.controlBtn-conn:hover[b-cpji98zedp] {
+    background-color: green;
+}
+
+.controlBtn-disc:hover[b-cpji98zedp] {
+    background-color: orangered;
+}
+
+.controlBtn-send:hover[b-cpji98zedp] {
+    background-color: deepskyblue;
+    margin-left: 2em;
+}

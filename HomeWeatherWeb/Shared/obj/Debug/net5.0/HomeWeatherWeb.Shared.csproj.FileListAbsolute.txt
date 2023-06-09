@@ -1,0 +1,12 @@
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\bin\Debug\net5.0\HomeWeatherWeb.Shared.deps.json
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\bin\Debug\net5.0\HomeWeatherWeb.Shared.dll
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\bin\Debug\net5.0\ref\HomeWeatherWeb.Shared.dll
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\bin\Debug\net5.0\HomeWeatherWeb.Shared.pdb
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\obj\Debug\net5.0\HomeWeatherWeb.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\obj\Debug\net5.0\HomeWeatherWeb.Shared.AssemblyInfoInputs.cache
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\obj\Debug\net5.0\HomeWeatherWeb.Shared.AssemblyInfo.cs
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\obj\Debug\net5.0\HomeWeatherWeb.Shared.csproj.CoreCompileInputs.cache
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\obj\Debug\net5.0\HomeWeatherWeb.Shared.dll
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\obj\Debug\net5.0\ref\HomeWeatherWeb.Shared.dll
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\obj\Debug\net5.0\HomeWeatherWeb.Shared.pdb
+D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Shared\obj\Debug\net5.0\HomeWeatherWeb.Shared.csproj.AssemblyReference.cache

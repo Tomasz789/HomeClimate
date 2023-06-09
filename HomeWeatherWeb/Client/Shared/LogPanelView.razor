@@ -1,0 +1,38 @@
+﻿@using HomeWeather.Serial.Models
+@using HomeWeatherWeb.Server.Models
+<ul class="list-unstyled logList">
+    @foreach(var l in Logs)
+    {
+        if (@l.Data.InfoType == HomeWeather.Serial.Models.Errors.PortInfo.ERROR){
+            <li class="logList-element-error logList-element-m-10">
+                <i class="bi bi-x-octagon-fill"></i>  [@l.ResponseDate] @l.Data.Message
+            </li>
+        }
+
+        if (@l.Data.InfoType == HomeWeather.Serial.Models.Errors.PortInfo.OPENED)
+        {
+            <li class="logList-element-success logList-element-m-10">
+                <i class="bi bi-check-circle-fill"></i>  [@l.ResponseDate] @l.Data.Message
+            </li>
+        }
+        if (@l.Data.InfoType == HomeWeather.Serial.Models.Errors.PortInfo.CLOSED)
+        {
+             <li class="logList-element-normal logList-element-m-10">
+                <i class="bi bi-check-circle-fill"></i>  [@l.ResponseDate] @l.Data.Message
+            </li> 
+        }
+
+         if (@l.Data.InfoType == HomeWeather.Serial.Models.Errors.PortInfo.INFO)
+        {
+             <li class="logList-element-info logList-element-m-10">
+                <i class="bi bi-info-circle-fill"></i>  [@l.ResponseDate] @l.Data.Message
+            </li> 
+        }
+    }
+</ul>
+
+@code{
+    [Parameter]
+
+    public List<ServiceResponse<PortMessage>>Logs {get; set; }
+}

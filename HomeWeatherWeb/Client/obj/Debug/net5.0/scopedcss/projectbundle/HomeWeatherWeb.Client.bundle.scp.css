@@ -1,0 +1,284 @@
+@import '';
+
+/* /Pages/Counter.razor.rz.scp.css */
+
+
+.text-cnt[b-esm4viqye2]{
+    color: red;
+    font-weight: bold;
+    font-family: Digital, sans-serif;
+}
+/* /Pages/Weather/Main.razor.rz.scp.css */
+.controlBtn[b-cpji98zedp] {
+    width: 100px;
+    height: 50px;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5em;
+    border-radius: 4px;
+    border: 1px solid antiquewhite;
+}
+
+.controlBtn-conn[b-cpji98zedp] {
+    background-color: darkgreen;
+}
+
+.controlBtn-disc[b-cpji98zedp] {
+    background-color: red;
+}
+
+.controlBtn-send[b-cpji98zedp] {
+    background-color: dodgerblue;
+    margin-left: 2em;
+}
+
+.controlBtn-conn:hover[b-cpji98zedp] {
+    background-color: green;
+}
+
+.controlBtn-disc:hover[b-cpji98zedp] {
+    background-color: orangered;
+}
+
+.controlBtn-send:hover[b-cpji98zedp] {
+    background-color: deepskyblue;
+    margin-left: 2em;
+}
+/* /Shared/HumidityView.razor.rz.scp.css */
+
+
+.hum-value[b-zwz4dbvimz] {
+    color: #ff0000;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Digital, sans-serif;
+    margin-top: 5px;
+    font-size: 5rem;
+}
+
+.view-container[b-zwz4dbvimz] {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 20px;
+}
+
+.display-panel[b-zwz4dbvimz] {
+    background-color: black;
+    border: 2px solid #000000;
+    border-radius: 1px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.img-hum[b-zwz4dbvimz] {
+    max-width: 150px;
+    max-height: 200px;
+    height: 150px;
+    width: 100px;
+    margin-right: 10px;
+    display: inline-block;
+    float: left;
+}
+/* /Shared/LogPanelView.razor.rz.scp.css */
+
+.logList[b-bdw7yes603]{
+    width: 600px;
+    height: 300px;
+    border: 2px dashed black;
+    overflow:hidden;
+    overflow-y:scroll;
+    padding: 5px;
+}
+
+.logList-element-m-10[b-bdw7yes603]{
+    margin-left: 10px;
+}
+.logList-element-success[b-bdw7yes603]{
+    color: darkgreen;
+}
+
+.logList-element-error[b-bdw7yes603] {
+    color: red;
+}
+
+.logList-element-info[b-bdw7yes603] {
+    color: darkblue;
+}
+
+.logList-element-normal[b-bdw7yes603] {
+    color: black;
+}
+
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-1o4r4qd5ff] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-1o4r4qd5ff] {
+    flex: 1;
+}
+
+.sidebar[b-1o4r4qd5ff] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-1o4r4qd5ff] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-1o4r4qd5ff]  a, .top-row .btn-link[b-1o4r4qd5ff] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-1o4r4qd5ff] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-1o4r4qd5ff] {
+        display: none;
+    }
+
+    .top-row.auth[b-1o4r4qd5ff] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-1o4r4qd5ff], .top-row .btn-link[b-1o4r4qd5ff] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-1o4r4qd5ff] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-1o4r4qd5ff] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-1o4r4qd5ff] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-1o4r4qd5ff] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-junr2rxypo] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-junr2rxypo] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-junr2rxypo] {
+    font-size: 1.1rem;
+}
+
+.oi[b-junr2rxypo] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-junr2rxypo] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-junr2rxypo] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-junr2rxypo] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-junr2rxypo]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-junr2rxypo]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-junr2rxypo]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-junr2rxypo] {
+        display: none;
+    }
+
+    .collapse[b-junr2rxypo] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+/* /Shared/TemperatureView.razor.rz.scp.css */
+
+
+.temp-value[b-4qjmbn1c6p] {
+    color: #ff0000;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Digital, sans-serif;
+    font-size: 4rem;
+}
+
+.view-container[b-4qjmbn1c6p]{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 20px;
+}
+
+.display-panel[b-4qjmbn1c6p] {
+    background-color: black;
+    border: 2px solid #000000;
+    border-radius: 1px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.img-temp[b-4qjmbn1c6p]{
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 10px;
+    display: inline-block;
+    float: left;
+}

@@ -1,0 +1,37 @@
+﻿@page "/weather/main"
+@using HomeWeather.Serial.Models
+@using HomeWeatherWeb.Server.Models
+@inject HttpClient client
+
+
+<div class="d-flex flex-row">
+    <TemperatureView TempValue="-30" />
+    <HumidityView HumidityValue="-15"/>
+</div>
+  
+<button class="controlBtn controlBtn-conn" @onclick="ConnectToSerial">Connect</button>
+<button class="controlBtn controlBtn-disc" @onclick="DisconnectSerial">Disconnect</button>
+<button class="controlBtn controlBtn-send">Click</button>
+
+<LogPanelView Logs="@logList"/>
+
+@code {
+
+    private string msg;
+    private List<ServiceResponse<PortMessage>> logList = new List<ServiceResponse<PortMessage>>();
+
+    private async Task ConnectToSerial()
+    {
+        Uri addr = new Uri("https://localhost:44369/api/connection/start");
+        var res = await client.GetFromJsonAsync<ServiceResponse<PortMessage>>(addr);
+        logList.Add(res);
+    }
+
+    private async Task DisconnectSerial()
+    {
+        Uri addr = new Uri("https://localhost:44369/api/connection/stop");
+        var res = await client.GetFromJsonAsync<ServiceResponse<PortMessage>>(addr);
+        logList.Add(res);
+    }
+}
+

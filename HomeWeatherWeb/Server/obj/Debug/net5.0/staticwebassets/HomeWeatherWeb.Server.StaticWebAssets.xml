@@ -1,0 +1,6 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="D:\Projekty\HomeWeatherApp\HomeWeatherWeb\Client\wwwroot\" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="C:\Users\lacho\.nuget\packages\radzen.blazor\4.11.2\build\..\staticwebassets\" />
+</StaticWebAssets>

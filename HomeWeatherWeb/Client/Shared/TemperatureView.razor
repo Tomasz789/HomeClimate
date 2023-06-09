@@ -1,0 +1,13 @@
+﻿
+<div class="view-container">
+    <img class="img-temp" src="img/therm.png" alt="thermometer.png"/>
+    <div class="display-panel">
+        <h4 class="temp-value">@TempValue</h4>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public string TempValue { get; set; } = "3";
+}

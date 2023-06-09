@@ -1,0 +1,37 @@
+
+
+.hum-value[b-zwz4dbvimz] {
+    color: #ff0000;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Digital, sans-serif;
+    margin-top: 5px;
+    font-size: 5rem;
+}
+
+.view-container[b-zwz4dbvimz] {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 20px;
+}
+
+.display-panel[b-zwz4dbvimz] {
+    background-color: black;
+    border: 2px solid #000000;
+    border-radius: 1px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.img-hum[b-zwz4dbvimz] {
+    max-width: 150px;
+    max-height: 200px;
+    height: 150px;
+    width: 100px;
+    margin-right: 10px;
+    display: inline-block;
+    float: left;
+}

@@ -1,0 +1,12 @@
+﻿<div class="view-container">
+    <img class="img-hum" src="img/humidity.png" alt="humidity.png"/>
+    <div class="display-panel">
+        <h4 class="hum-value">@HumidityValue</h4>
+    </div>
+</div>
+
+
+@code{
+    [Parameter]
+    public string HumidityValue { get; set; } = "5";
+}

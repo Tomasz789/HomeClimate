@@ -1,0 +1,29 @@
+﻿
+.logList{
+    width: 600px;
+    height: 300px;
+    border: 2px dashed black;
+    overflow:hidden;
+    overflow-y:scroll;
+    padding: 5px;
+}
+
+.logList-element-m-10{
+    margin-left: 10px;
+}
+.logList-element-success{
+    color: darkgreen;
+}
+
+.logList-element-error {
+    color: red;
+}
+
+.logList-element-info {
+    color: darkblue;
+}
+
+.logList-element-normal {
+    color: black;
+}
+

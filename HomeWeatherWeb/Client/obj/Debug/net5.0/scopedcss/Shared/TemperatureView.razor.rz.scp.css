@@ -1,0 +1,34 @@
+
+
+.temp-value[b-4qjmbn1c6p] {
+    color: #ff0000;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Digital, sans-serif;
+    font-size: 4rem;
+}
+
+.view-container[b-4qjmbn1c6p]{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 20px;
+}
+
+.display-panel[b-4qjmbn1c6p] {
+    background-color: black;
+    border: 2px solid #000000;
+    border-radius: 1px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.img-temp[b-4qjmbn1c6p]{
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 10px;
+    display: inline-block;
+    float: left;
+}
